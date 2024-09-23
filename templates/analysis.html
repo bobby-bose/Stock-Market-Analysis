@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+	#img1 {
+            width: 40%; 
+            height: auto; 
+        }
+
+        #img2 {
+            width: 60%; 
+            height: auto; 
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("/static/image2.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        ul.menu {
+            list-style-type: none;
+            margin: 20;
+            padding: 10;
+        }
+
+        .larger-text {
+            font-size: 3em;
+        }
+
+        ul.menu li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        ul.menu li a {
+            text-decoration: none;
+            color: #ccc;
+            padding: 10px 30px;
+            border: 3px solid #ccc;
+        }
+
+        ul.menu li a:hover {
+            background-color: #808080;
+        }
+
+        .content-container {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="content-container">
+    <h1>Stock analysis</h1>
+    <ul class="menu">
+        <li>
+            <h3>Welcome to Our Analysis Page</h3>
+            <p>Explore insightful graphs for leading companies in the financial markets. At StockX, we provide comprehensive
+                data and visual representations to assist you in making informed investment decisions.</p>
+        </li>
+        <li>
+            <h3>1. Apple Stock Analysis</h3>
+            <img id="img1" src="/static/image3.jpg" alt="Apple Analysis">
+        </li>
+        <li>
+            <h3>2. Microsoft Stock Analysis</h3>
+            <img id="img1" src="/static/image4.jpg" alt="Microsoft Analysis">
+        </li>
+	<li>
+            <h3>3. Wipro Stock Analysis</h3>
+            <img id="img2" src="/static/image4.jpg" alt="Wipro Analysis">
+        </li>
+	<li>
+            <h3>4. Infosys Stock Analysis</h3>
+            <img id="img2" src="/static/image5.jpg" alt="Infosys Analysis">
+        </li>
+    </ul>
+</div>
+</body>
+</html>
